@@ -11,10 +11,11 @@ class SearchScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     
     var searchController = TextEditingController();
-    var list = NewsCubit.get(context).search;
+    
     return BlocConsumer<NewsCubit,NewsStates>(
       listener: (context,state){},
       builder:(context,state){
+        var list = NewsCubit.get(context).search;
         return Scaffold(
         appBar: AppBar(),
         body: Column(
@@ -43,7 +44,7 @@ class SearchScreen extends StatelessWidget {
               ),
             ),
             Expanded(
-              child: articleuilder(list),
+              child: articleuilder(list,isSearch: true),
             ),        
           ],
         ),

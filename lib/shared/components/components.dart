@@ -78,7 +78,7 @@ Widget buildArticleItem(article,context){
 }
 
 
-Widget articleuilder(list,{isSearch = true }){
+Widget articleuilder(list,{isSearch = false }){
 
   if (list.isEmpty ){
     print (list);
