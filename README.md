@@ -1,10 +1,10 @@
 # news_app
 News app made with flutter
-#Architecture used: 
+## Architecture used: 
 BloC
-#State_Managemnt: 
+## State_Managemnt: 
 Flutter BloC
-#backend: 
+#b# ackend: 
 NewsApi public
-#Supported theme: 
+## Supported theme: 
 light and dark theme 
