@@ -4,7 +4,7 @@ News app made with flutter
 BloC
 ## State_Managemnt: 
 Flutter BloC
-#b# ackend: 
+## backend: 
 NewsApi public
 ## Supported theme: 
 light and dark theme 
